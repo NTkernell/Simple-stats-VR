@@ -2,12 +2,9 @@
 using System;
 using System.Reflection;
 
-namespace SimpleStatsVR1
+namespace PlayTime_roulette
 {
-    /// <summary>
-    /// This class handles applying harmony patches to the game.
-    /// You should not need to modify this class.
-    /// </summary>
+    
     public class HarmonyPatches
     {
         private static Harmony instance;

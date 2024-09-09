@@ -20,7 +20,7 @@ public class SimpleTextMod : BaseUnityPlugin
        
         PhotonNetwork.AddCallbackTarget(this);
      
-        Invoke(nameof(AddTextAboveLeftHand), 3f);
+        Invoke(nameof(Cooltext), 3f);
     }
 
     void Update()
@@ -62,7 +62,7 @@ public class SimpleTextMod : BaseUnityPlugin
         }
     }
 
-    void AddTextAboveLeftHand()
+    void Cooltext()
     {
       
         GameObject leftHand = GameObject.Find("LeftHandGorilla");  

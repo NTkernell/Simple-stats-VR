@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using Photon.Pun;
 
-[BepInPlugin("com.ntkernel.simplestatsvr", "simplestatsvr", "1.0.0")]
+[BepInPlugin("com.ntkernel.gorillatag.simplestatsvr", "simplestatsvr", "1.0.0")]
 public class SimpleTextMod : BaseUnityPlugin
 {
     private GameObject textObject;
